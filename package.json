@@ -1,9 +1,9 @@
 {
   "name": "nest-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A quick starter for Nest JS application",
-  "author": "Jayant Chauhan",
-  "license": "UNLICENSED",
+  "author": "Jayant Chauhan <jayantjagdishchauhan@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "start": "nest start",
@@ -69,5 +69,13 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamjayantchauhan/nest-js-starter"
+  },
+  "bugs": "https://github.com/iamjayantchauhan/nest-js-starter"
 }

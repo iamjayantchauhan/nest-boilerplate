@@ -6,7 +6,7 @@ Welcome to the Nest JS Starter project! This is a boilerplate template designed 
 
 ## Features
 
--  Modular Structure: Follows a modular architecture to organize your code into reusable and maintainable modules.
+- Modular Structure: Follows a modular architecture to organize your code into reusable and maintainable modules.
 - Dependency Injection: Leverages NestJS's built-in dependency injection system for better code organization and testability.
 - Database Integration: Includes support for popular database MongoDB
 - Authentication: Implements a basic authentication system using JWT (JSON Web Tokens).

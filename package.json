@@ -1,13 +1,9 @@
 {
-  "name": "nest-js-starter",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
+  "name": "nest-starter",
+  "version": "1.0.0",
+  "description": "A quick starter for Nest JS application",
+  "author": "Jayant Chauhan",
   "license": "UNLICENSED",
-  "publishConfig": {
-    "@iamjayantchauhan:registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "nest build",
     "start": "nest start",

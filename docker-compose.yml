@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  node:
+    build: .
+    volumes:
+      - .:/app
+      - ~/.npmrc/:/root/.npmrc
+  postgres:
+    image: postgres
+    restart: unless-stopped 

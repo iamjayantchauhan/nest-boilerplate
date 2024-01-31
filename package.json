@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-boilerplate",
+  "name": "nest-boilerplate",
   "version": "1.0.0",
   "description": "A quick boiler plate for Nest JS application",
   "author": "Jayant Chauhan <jayantjagdishchauhan@gmail.com>",
@@ -85,22 +85,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamjayantchauhan/nestjs-boilerplate.git"
+    "url": "git+https://github.com/iamjayantchauhan/nest-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/iamjayantchauhan/nestjs-boilerplate"
+    "url": "https://github.com/iamjayantchauhan/nest-boilerplate"
   },
   "keywords": [
     "nestjs",
     "nest",
     "nest-js-starter",
-    "nest-boiler-plate",
+    "nest-js-boilerplate",
     "nodejs-framework",
     "nodejs",
     "nest-starter",
-    "nest-boiler-plate"
+    "nest-boilerplate"
   ],
-  "homepage": "https://github.com/iamjayantchauhan/nestjs-boilerplate#readme",
+  "homepage": "https://github.com/iamjayantchauhan/nest-boilerplate#readme",
   "main": "main.ts",
   "directories": {
     "test": "test"

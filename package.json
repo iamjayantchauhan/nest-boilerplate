@@ -85,10 +85,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamjayantchauhan/nest-js-starter.git"
+    "url": "git+https://github.com/iamjayantchauhan/nestjs-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/iamjayantchauhan/nest-js-starter"
+    "url": "https://github.com/iamjayantchauhan/nestjs-boilerplate"
   },
   "keywords": [
     "nestjs",
@@ -100,7 +100,7 @@
     "nest-starter",
     "nest-boiler-plate"
   ],
-  "homepage": "https://github.com/iamjayantchauhan/nest-js-starter#readme",
+  "homepage": "https://github.com/iamjayantchauhan/nestjs-boilerplate#readme",
   "main": "main.ts",
   "directories": {
     "test": "test"

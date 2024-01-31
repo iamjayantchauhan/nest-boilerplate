@@ -1,7 +1,7 @@
 
-# Nest JS Starter
+# Nest Boiler Plate
 
-Welcome to the Nest JS Starter project! This is a boilerplate template designed to kickstart your development with NestJS, a powerful and extensible Node.js framework. Whether you are building a small API or a complex microservices architecture, this starter provides a solid foundation and best practices to help you get started quickly
+Welcome to the Nest Boiler Plate project! This is a boilerplate template designed to kickstart your development with NestJS, a powerful and extensible Node.js framework. Whether you are building a small API or a complex microservices architecture, this starter provides a solid foundation and best practices to help you get started quickly
 
 
 ## Features

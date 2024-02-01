@@ -8,6 +8,9 @@ import configuration from './config/configuration';
 import DatabaseModule from './database/mongo.db';
 import { TerminusModule } from '@nestjs/terminus';
 import HealthController from './health/health.controller';
+import { UserModule } from './user/user.module';
+import { UtilityModule } from './utils/utils.module';
+import { MailerModule } from '@nestjs-modules/mailer';
 
 const envFilePath = process.env.NODE_ENV == 'test' ? '.env.test' : '.env';
 const logger: LoggerConfig = new LoggerConfig();
@@ -18,9 +21,22 @@ const imports = [
     load: [configuration],
     envFilePath: envFilePath,
   }),
+  MailerModule.forRoot({
+    transport: {
+      host: process.env.EMAIL_HOST,
+      port: Number(process.env.EMAIL_PORT),
+      secure: false,
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+    },
+  }),
   WinstonModule.forRoot(logger.opts()),
   DatabaseModule.forRoot(),
-  TerminusModule
+  TerminusModule,
+  UtilityModule,
+  UserModule
 ];
 
 const controllers = [AppController, HealthController];

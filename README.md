@@ -20,7 +20,7 @@ Welcome to the Nest Boilerplate project! This is a boilerplate template designed
 
 Clone this repository: 
 ```
-git clone https://github.com/your-username/nest-js-starter.git
+git clone https://github.com/your-username/nestjs-jump-start.git
 ```
 
 Install dependencies: 

@@ -1,5 +1,5 @@
 {
-  "name": "nest-boilerplate",
+  "name": "nestjs-jump-start",
   "version": "1.0.0",
   "description": "A quick boiler plate for Nest JS application",
   "author": "Jayant Chauhan <jayantjagdishchauhan@gmail.com>",
@@ -89,10 +89,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamjayantchauhan/nest-boilerplate.git"
+    "url": "git+https://github.com/iamjayantchauhan/nestjs-jump-start.git"
   },
   "bugs": {
-    "url": "https://github.com/iamjayantchauhan/nest-boilerplate"
+    "url": "https://github.com/iamjayantchauhan/nestjs-jump-start"
   },
   "keywords": [
     "nestjs",
@@ -104,7 +104,7 @@
     "nest-starter",
     "nest-boilerplate"
   ],
-  "homepage": "https://github.com/iamjayantchauhan/nest-boilerplate#readme",
+  "homepage": "https://github.com/iamjayantchauhan/nestjs-jump-start#readme",
   "main": "main.ts",
   "directories": {
     "test": "test"
